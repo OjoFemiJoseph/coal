@@ -180,7 +180,7 @@
       <div class="page" id="two">
         <h3>Section 2: Current Research Programme</h3>
         <div>
-          <label for="studentLevel">Level Of Study</label>
+          <label for="studentLevel">Level Of Study <span style="color:red">*</span></label>
           <select  name="studentLevel">
               <option>Select an Option </option>
             <option value="Masters" {{ $pageTwo->studentLevel == 'Masters' ? 'selected':''}} >Masters</option>
@@ -188,23 +188,23 @@
           </select>
         </div>
         <div>
-          <label for="department">Department</label>
+          <label for="department">Department <span style="color:red">*</span> </label>
           <input type="text" name="studentDepartment" value="{{old('studentDepartment',$pageTwo->studentDepartment)}}">
         </div>
         <div>
-          <label for="university">University</label>
+          <label for="university">University <span style="color:red">*</span> </label>
           <input type="text" name="studentUniversity" value="{{old('studentUniversity',$pageTwo->studentUniversity)}}">
         </div>
         <div>
-          <label for="city">City</label>
+          <label for="city">City <span style="color:red">*</span> </label>
           <input type="text" name="studentUniversityCity" value="{{old('studentUniversityCity',$pageTwo->studentUniversityCity)}}">
         </div>
         <div>
-          <label for="SchoolCountry">Country</label>
+          <label for="SchoolCountry">Country <span style="color:red">*</span> </label>
           <input type="text" name="studentUniversityCountry" value="{{old('studentUniversityCountry',$pageTwo->studentUniversityCountry)}}">
         </div>
         <div>
-          <label for="researchField">Research Field</label>
+          <label for="researchField">Research Field <span style="color:red">*</span> </label>
           <select name="studentResearchField">
               <option>Select an Option </option>
             <option value="Engineering" {{ $pageTwo->studentResearchField == 'Engineering' ? 'selected':''}}>Engineering</option>
@@ -214,7 +214,7 @@
           </select>
         </div>
         <div>
-          <label for="StudentResearchArea">Research Area</label>
+          <label for="StudentResearchArea">Research Area <span style="color:red">*</span> </label>
           <select name="StudentResearchArea">
               <option>Select an Option </option>
             <option value="Renewable Energy" {{ $pageTwo->StudentResearchArea == 'Renewable Energy' ? 'selected':''}}>Renewable Energy</option>
@@ -229,7 +229,7 @@
           <input type="text" name="StudentResearchAreaOther" value="{{old('StudentResearchAreaOther',$pageTwo->StudentResearchAreaOther)}}">
         </div>
         <div>
-          <label for="haveResearchTopic">Do you have Topic approved by your department board or supervisor</label>
+          <label for="haveResearchTopic">Do you have Topic approved by your department board or supervisor <span style="color:red">*</span> </label>
           <select name="haveResearchTopic">
               <option>Select an Option </option>
             <option value="Yes" {{ $pageTwo->haveResearchTopic == 'Yes' ? 'selected':''}}>Yes</option>
@@ -237,11 +237,11 @@
           </select>
         </div>
         <div>
-          <label for="researchTopic">Research Topic</label>
+          <label for="researchTopic">Research Topic <span style="color:red">*</span>  </label>
           <input type="text" name="researchTopic" value="{{old('researchTopic',$pageTwo->researchTopic)}}">
         </div>
         <div>
-          <label for="programmeStartingDate">Starting date of programme <em>(MM-YYYY)</em> </label>
+          <label for="programmeStartingDate">Starting date of programme <em>(MM-YYYY)</em> <span style="color:red">*</span> </label>
           <input type="text" name="programmeStartingDate" value="{{old('programmeStartingDate',$pageTwo->programmeStartingDate)}}">
         </div>
         <div>
@@ -249,7 +249,7 @@
           <input type="text" name="programmeFinalDate" value="{{old('programmeFinalDate',$pageTwo->programmeFinalDate)}}">
         </div>
         <div>
-          <label for="studentGradutionDate">Expected Graduation Date <em>(MM-YYYY)</em> </label>
+          <label for="studentGradutionDate">Expected Graduation Date <em>(MM-YYYY)</em> <span style="color:red">*</span> </label>
           <input type="text" name="studentGradutionDate" value="{{old('studentGradutionDate',$pageTwo->studentGradutionDate)}}">
         </div>
         <div>
@@ -259,7 +259,7 @@
           </textarea>
         </div>
         <div>
-          <label name="requirePublication">Does Your research programme require the publication of at least journal article from your research</label>
+          <label name="requirePublication">Does Your research programme require the publication of at least journal article from your research <span style="color:red">*</span> </label>
           <select  name="requirePublication">
               <option>Select an Option </option>
             <option value="Yes, publication of journal article is compulsory" {{ $pageTwo->requirePublication == 'Yes, publication of journal article is compulsory' ? 'selected':''}}>Yes, publication of journal article is compulsory</option>
@@ -274,7 +274,7 @@
         <p style="color: red;">Note that the contact(s) provided must be your research supervisor(s) on the research programme for which you are applying for the mentoring programme. Please not that providing your supervisor's contact information means you give consent for us to contact him/her. Your supervisor(s) may be required to provide a recommendation letter in support of your application.</p>
         <h4>Primary Supervisor</h4>
         <div>
-          <label for="MainSupervisorTitle">
+          <label for="MainSupervisorTitle">Supervisor Title <span style="color:red">*</span>
           </label>
           <select name="MainSupervisorTitle">
               <option>Select an Option </option>
@@ -284,27 +284,27 @@
           </select>
         </div>
         <div>
-          <label for="mainSupervisorFirstName">First Name</label>
+          <label for="mainSupervisorFirstName">First Name <span style="color:red">*</span> </label>
           <input type="text" name="mainSupervisorFirstName" value="{{old('mainSupervisorFirstName',$pageThree->mainSupervisorFirstName)}}"/>
         </div>
         <div>
-          <label for="mainSupervisorLastName">Last Name</label>
+          <label for="mainSupervisorLastName">Last Name <span style="color:red">*</span> </label>
           <input type="text" name="mainSupervisorLastName" value="{{old('mainSupervisorLastName',$pageThree->mainSupervisorLastName)}}"/>
         </div>
         <div>
-          <label for="mainSupervisorUniversityName">Name Of University</label>
+          <label for="mainSupervisorUniversityName">Name Of University <span style="color:red">*</span> </label>
           <input type="text" name="mainSupervisorUniversityName" value="{{old('mainSupervisorUniversityName',$pageThree->mainSupervisorUniversityName)}}"/>
         </div>
         <div>
-          <label for="mainSupervisorUniversityAddress">University Address</label>
+          <label for="mainSupervisorUniversityAddress">University Address <span style="color:red">*</span> </label>
           <input type="text" name="mainSupervisorUniversityAddress"  value="{{old('mainSupervisorUniversityAddress',$pageThree->mainSupervisorUniversityAddress)}}"/>
         </div>
         <div>
-          <label for="mainSupervisorUniversityEmail">Supervisor Institutional Email Address</label>
+          <label for="mainSupervisorUniversityEmail">Supervisor Institutional Email Address <span style="color:red">*</span> </label>
           <input type="text" name="mainSupervisorUniversityEmail" value="{{old('mainSupervisorUniversityEmail',$pageThree->mainSupervisorUniversityEmail)}}"/>
         </div>
         <div>
-          <label for="mainSupervisorAffliation">Is your supervisor affliated with (based in) a non-African university or organization?</label>
+          <label for="mainSupervisorAffliation">Is your supervisor affliated with (based in) a non-African university or organization? <span style="color:red">*</span> </label>
           <select  name="mainSupervisorAffliation">
               <option>Select an Option </option>
             <option value="Yes" {{ $pageThree->mainSupervisorAffliation == 'Yes' ? 'selected':''}}>Yes</option>
