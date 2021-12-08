@@ -370,15 +370,15 @@
         <h4>Academic History</h4>
         <p style="color: red;">Please provide details of all post-secondary education starting from the current one.</p>
         <div>
-          <label for="pastInstitutionName">Name Of Institution</label>
+          <label for="pastInstitutionName">Name Of Institution <span style="color:red">*</span> </label>
           <input type="text" name="pastInstitutionName" value="{{old('pastInstitutionName',$pageFour->pastInstitutionName)}}">
         </div>
         <div>
-          <label for="pastInstitutionCity">City</label>
+          <label for="pastInstitutionCity">City  <span style="color:red">*</span> </label>
           <input type="text" name="pastInstitutionCity" value="{{old('pastInstitutionCity',$pageFour->pastInstitutionCity)}}">
         </div>
         <div>
-          <label for="pastInstitutionCountry">Country</label>
+          <label for="pastInstitutionCountry">Country  <span style="color:red">*</span> </label>
           <input type="text" name="pastInstitutionCountry" value="{{old('pastInstitutionCountry',$pageFour->pastInstitutionCountry)}}">
         </div>
         <div>
@@ -386,17 +386,17 @@
           <input type="text" name="pastInstitutionStartDate" value="{{old('pastInstitutionStartDate',$pageFour->pastInstitutionStartDate)}}">
         </div>
         <div>
-          <label for="pastInstitutionEndDate">End Date  <em>(MM-YYYY)</em> </label    
+          <label for="pastInstitutionEndDate">End Date  <em>(MM-YYYY)</em> <span style="color:red">*</span></label    
           <input type="text" name="pastInstitutionEndDate" value="{{old('pastInstitutionEndDate',$pageFour->pastInstitutionEndDate)}}">
         </div>
         <div>
-          <label for="cpga">Cumulative Grade Point
+          <label for="cpga">Cumulative Grade Point <span style="color:red">*</span>
             <em>For countries or institutions where Cumulative GPA is not applicable, please state your grade using the applicable grading system</em>
           </label>
           <input type="text" name="cpga" value="{{old('cpga',$pageFour->cpga)}}">
         </div>
         <div>
-          <label for="degree">Degree Received/Expected</label>
+          <label for="degree">Degree Received/Expected  <span style="color:red">*</span> </label>
           <input type="text" name="degree" placeholder="(e.g B.sc. Philosophy)" value="{{old('degree',$pageFour->degree)}}">
         </div><br>
         <h4>Research and Development</h4>
@@ -476,15 +476,15 @@
           <li>kindly note that mentors are continuously being added to the Mentors’ Community, therefore, if you do not find a mentor whose interest align with your research concept at the time of application, mark the section as "Not Applicable"</li>
         </ol>
         <div>
-          <label for="firstMentor">First Mentor</label>
+          <label for="firstMentor">First Mentor <span style="color:red">*</span> </label>
           <input type="text" name="firstMentor" value="{{old('firstMentor',$otherPage->firstMentor)}}">
         </div>
         <div>
-          <label for="secondMentor">Second Mentor</label>
+          <label for="secondMentor">Second Mentor <span style="color:red">*</span> </label>
           <input type="text" name="secondMentor" value="{{old('secondMentor',$otherPage->secondMentor)}}">
         </div>
         <div>
-          <label for="thirdMentor">Third Mentor</label>
+          <label for="thirdMentor">Third Mentor <span style="color:red">*</span></label>
           <input type="text" name="thirdMentor" value="{{old('thirdMentor',$otherPage->thirdMentor)}}">
         </div>
       </div>
@@ -493,7 +493,7 @@
         <br>
         <h4>Employment</h4>
         <div>
-          <label for="employmentType" >Employment Type</label>
+          <label for="employmentType" >Employment Type <span style="color:red">*</span> </label>
           <select name="employmentType">
               <option>Select an Option </option>
             <option value="Full Time" {{ $otherPage->employmentType == 'Full Time' ? 'selected':''}}>Full Time</option>
@@ -502,7 +502,7 @@
           </select>
         </div>
         <div>
-          <label for="researchHours">How many hours do you spend on research Weekly</label>
+          <label for="researchHours">How many hours do you spend on research Weekly <span style="color:red">*</span></label>
           <select id="researchHours" name="researchHours">
               <option>Select an Option </option>
             <option value="Less than 10" {{ $otherPage->researchHours == 'Less than 10' ? 'selected':''}}>Less than 10</option>
@@ -550,20 +550,20 @@
       <div class="page" id="seven">
         <h3>Section 7: Upload Documents</h3>
         <div>
-          <label for="profilePicture">Upload profile picture</label>
+          <label for="profilePicture">Upload profile picture <span style="color:red">*</span> </label>
           <input type="file" name="profilePicture" >
         </div>
         <div>
-          <label for="motivationStatement">Motivation Statement</label>
+          <label for="motivationStatement">Motivation Statement <span style="color:red">*</span> </label>
           <input type="file" name="motivationStatement">
         </div>
         <div>
-          <label for="researchConcepts">Upload Research Concept Note</label>
+          <label for="researchConcepts">Upload Research Concept Note <span style="color:red">*</span> </label>
           <input type="file" name="researchConcepts">
         </div>
       </div>
       <div class="page" id="eight">
-        <label>By typing my full name here
+        <label>By typing my full name here 
           <input type="text" name="signature">,I certify that the information provided is true and complete to the best of my knowledge. if I am accepted, I accepted that any false or misleading information in my application or interview may lead to expulsion from the program</label>
       </div>
     </div>
