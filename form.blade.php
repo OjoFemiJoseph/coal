@@ -386,13 +386,13 @@
           <input type="text" name="pastInstitutionStartDate" value="{{old('pastInstitutionStartDate',$pageFour->pastInstitutionStartDate)}}">
         </div>
         <div>
-          <label for="pastInstitutionEndDate">End Date  <em>(MM-YYYY)</em> <span style="color:red">*</span></label    
+          <label for="pastInstitutionEndDate">End Date  <em>(MM-YYYY)</em> <span style="color:red">*</span></label>    
           <input type="text" name="pastInstitutionEndDate" value="{{old('pastInstitutionEndDate',$pageFour->pastInstitutionEndDate)}}">
         </div>
         <div>
-          <label for="cpga">Cumulative Grade Point <span style="color:red">*</span>
+          <label for="cpga">Cumulative Grade Point
             <em>For countries or institutions where Cumulative GPA is not applicable, please state your grade using the applicable grading system</em>
-          </label>
+         <span style="color:red">*</span>  </label>
           <input type="text" name="cpga" value="{{old('cpga',$pageFour->cpga)}}">
         </div>
         <div>
