@@ -3,7 +3,7 @@
 @section('content')
 
 @if(Session::has('message')) 
-<p> {{ Session::get('message') }}</p>
+<p><strong> {{ Session::get('message') }}</strong></p>
 @endif
 <form id="mrp" action="{{ route('hform') }}" method="post" enctype="multipart/form-data">
   @csrf
@@ -25,7 +25,7 @@
         </div>
         <h3>Personal Information</h3>
         <div>
-          <label for="firstName">First Name</label>
+          <label for="firstName">First Name <span style="color:red">*</span>: </label>
           <input type="text" name="fname" value="{{ old('fname',$pageOne->fname) }}"/>
 
           @error('fname')
@@ -46,7 +46,7 @@
         </div>
 
         <div>
-          <label for="lastName">Last Name</label>
+          <label for="lastName">Last Name <span style="color:red">*</span></label>
           <input type="text" name="lname" value="{{ old('lname',$pageOne->lname) }}"/>
           @error('email')
                 <span class="invalid-feedback" role="alert">
@@ -56,15 +56,16 @@
         </div>
       
         <div>
-          <label for="gender">Sex</label>
+          <label for="gender">Sex <span style="color:red">*</span>  </label>
           <select name="gender">
+            <option>Select an Option </option>
             <option value="male" {{ $pageOne->gender == 'male' ? 'selected':''}}>Male</option>
             <option value="female" {{ $pageOne->gender == 'female' ? 'selected':''}}>Female</option>
           </select>
         </div>
 
         <div>
-          <label for="email">Primary Email Address</label>
+          <label for="email">Primary Email Address<span style="color:red">*</span>   </label>
           <input type="email" name="email" value="{{ old('email',$pageOne->email) }}">
 
           @error('email')
@@ -86,7 +87,7 @@
         </div>
         
         <div>
-          <label for="permanentAddress">Permanent Address</label>
+          <label for="permanentAddress">Permanent Address <span style="color:red">*</span></label>
           <input type="text" name="paddress" value="{{ old('paddress',$pageOne->paddress) }}">
           
           @error('paddress')
@@ -98,7 +99,7 @@
         </div>
         
         <div>
-          <label for="city">City</label>
+          <label for="city">City <span style="color:red">*</span> </label>
           <input type="text" name="userCity" value="{{ old('userCity',$pageOne->userCity) }}">
           
           @error('userCity')
@@ -109,7 +110,7 @@
         </div>
 
         <div>
-          <label for="state">State/Province</label>
+          <label for="state">State/Province <span style="color:red">*</span> </label>
           <input type="text" name="userState" value="{{ old('userState',$pageOne->userState) }}">
         
           @error('userState')
@@ -120,7 +121,7 @@
         </div>
 
         <div>
-          <label for="country">Country</label>
+          <label for="country">Country <span style="color:red">*</span> </label>
           <input type="text" name="userCountry" value="{{ old('userCountry',$pageOne->userCountry) }}">
           
           @error('userCountry')
@@ -131,7 +132,7 @@
         </div>
         
         <div>
-          <label for="nationality">Nationality</label>
+          <label for="nationality">Nationality <span style="color:red">*</span>   </label>
           <input type="text" name="userNationality" value="{{ old('userNationality',$pageOne->userNationality) }}">
           
           @error('userNationality')
@@ -142,7 +143,7 @@
         </div>
 
         <div>
-          <label for="DOB">Date Of Birth</label>
+          <label for="DOB">Date Of Birth <span style="color:red">*</span></label>
           <input type="text" name="dob" value="{{ old('dob',$pageOne->dob) }}">
           
           @error('dob')
@@ -153,7 +154,7 @@
         </div>
         
         <div>
-          <label for="phone">Telephone Contact</label>
+          <label for="phone">Telephone Contact  <span style="color:red">*</span> </label>
           <input type="tel" name="userContact" value="{{ old('userContact',$pageOne->userContact) }}">
           
           @error('userContact')
