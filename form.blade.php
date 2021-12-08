@@ -143,7 +143,7 @@
         </div>
 
         <div>
-          <label for="DOB">Date Of Birth <span style="color:red">*</span></label>
+          <label for="DOB">Date Of Birth <em>(DD-MM-YYYY)</em> <span style="color:red">*</span></label>
           <input type="text" name="dob" value="{{ old('dob',$pageOne->dob) }}">
           
           @error('dob')
@@ -182,6 +182,7 @@
         <div>
           <label for="studentLevel">Level Of Study</label>
           <select  name="studentLevel">
+              <option>Select an Option </option>
             <option value="Masters" {{ $pageTwo->studentLevel == 'Masters' ? 'selected':''}} >Masters</option>
             <option value="Doctorate" {{ $pageTwo->studentLevel == 'Doctorate' ? 'selected':''}}>Doctorate</option>
           </select>
@@ -205,6 +206,7 @@
         <div>
           <label for="researchField">Research Field</label>
           <select name="studentResearchField">
+              <option>Select an Option </option>
             <option value="Engineering" {{ $pageTwo->studentResearchField == 'Engineering' ? 'selected':''}}>Engineering</option>
             <option value="Social Science" {{ $pageTwo->studentResearchField == 'Social Science' ? 'selected':''}}>Social Science</option>
             <option value="Physical Science" {{ $pageTwo->studentResearchField == 'Physical Science' ? 'selected':''}}>Physical Science</option>
@@ -214,6 +216,7 @@
         <div>
           <label for="StudentResearchArea">Research Area</label>
           <select name="StudentResearchArea">
+              <option>Select an Option </option>
             <option value="Renewable Energy" {{ $pageTwo->StudentResearchArea == 'Renewable Energy' ? 'selected':''}}>Renewable Energy</option>
             <option value="Energy Efficiency" {{ $pageTwo->StudentResearchArea == 'Energy Efficiency' ? 'selected':''}}>Energy Efficiency</option>
             <option value="Environmental Policy" {{ $pageTwo->StudentResearchArea == 'Environmental Policy' ? 'selected':''}}>Environmental Policy</option>
@@ -228,6 +231,7 @@
         <div>
           <label for="haveResearchTopic">Do you have Topic approved by your department board or supervisor</label>
           <select name="haveResearchTopic">
+              <option>Select an Option </option>
             <option value="Yes" {{ $pageTwo->haveResearchTopic == 'Yes' ? 'selected':''}}>Yes</option>
             <option value="No" {{ $pageTwo->haveResearchTopic == 'No' ? 'selected':''}}>No</option>
           </select>
@@ -237,15 +241,15 @@
           <input type="text" name="researchTopic" value="{{old('researchTopic',$pageTwo->researchTopic)}}">
         </div>
         <div>
-          <label for="programmeStartingDate">Starting date of programme</label>
+          <label for="programmeStartingDate">Starting date of programme <em>(MM-YYYY)</em> </label>
           <input type="text" name="programmeStartingDate" value="{{old('programmeStartingDate',$pageTwo->programmeStartingDate)}}">
         </div>
         <div>
-          <label for="programmeFinalDate">Expected final thesis submission date</label>
+          <label for="programmeFinalDate">Expected final thesis submission date <em>(MM-YYYY)</em>  </label>
           <input type="text" name="programmeFinalDate" value="{{old('programmeFinalDate',$pageTwo->programmeFinalDate)}}">
         </div>
         <div>
-          <label for="studentGradutionDate">Expected Graduation Date</label>
+          <label for="studentGradutionDate">Expected Graduation Date <em>(MM-YYYY)</em> </label>
           <input type="text" name="studentGradutionDate" value="{{old('studentGradutionDate',$pageTwo->studentGradutionDate)}}">
         </div>
         <div>
@@ -257,6 +261,7 @@
         <div>
           <label name="requirePublication">Does Your research programme require the publication of at least journal article from your research</label>
           <select  name="requirePublication">
+              <option>Select an Option </option>
             <option value="Yes, publication of journal article is compulsory" {{ $pageTwo->requirePublication == 'Yes, publication of journal article is compulsory' ? 'selected':''}}>Yes, publication of journal article is compulsory</option>
             <option value="No, journal publication is not compulsory but I am interested in publishing my research in a journal article" {{ $pageTwo->requirePublication == 'No, journal publication is not compulsory but I am interested in publishing my research in a journal article' ? 'selected':''}}>No, journal publication is not compulsory but I am interested in publishing my research in a journal article /</option>
             <option value="No, journal publication is not required and I am indifferent about publishing" {{ $pageTwo->requirePublication == 'No, journal publication is not required and I am indifferent about publishing' ? 'selected':''}}>No, journal publication is not required and I am indifferent about publishing</option>
@@ -272,6 +277,7 @@
           <label for="MainSupervisorTitle">
           </label>
           <select name="MainSupervisorTitle">
+              <option>Select an Option </option>
             <option value="Professor" {{ $pageThree->MainSupervisorTitle == 'Professor' ? 'selected':''}}>Professor</option>
             <option value="Dr" {{ $pageThree->MainSupervisorTitle == 'Dr' ? 'selected':''}}>Dr</option>
             <option value="None" {{ $pageThree->MainSupervisorTitle == 'None' ? 'selected':''}}>None</option>
@@ -300,6 +306,7 @@
         <div>
           <label for="mainSupervisorAffliation">Is your supervisor affliated with (based in) a non-African university or organization?</label>
           <select  name="mainSupervisorAffliation">
+              <option>Select an Option </option>
             <option value="Yes" {{ $pageThree->mainSupervisorAffliation == 'Yes' ? 'selected':''}}>Yes</option>
             <option value="No" {{ $pageThree->mainSupervisorAffliation == 'No' ? 'selected':''}}>No</option>
           </select>
@@ -310,6 +317,7 @@
         </div>
         <label for="haveCoSupervizsor">Do you have a Co-supervisor for your research</label>
         <select name="haveCoSupervizsor">
+              <option>Select an Option </option>
           <option value="Yes" {{ $pageThree->haveCoSupervizsor == 'Yes' ? 'selected':''}}>Yes</option>
           <option value="No" {{ $pageThree->haveCoSupervizsor == 'No' ? 'selected':''}}>No</option>
         </select>
@@ -318,6 +326,7 @@
           <label for="coSupervisorTitle">
           </label>
           <select name="coSupervisorTitle">
+              <option>Select an Option </option>
             <option value="Professor" {{ $pageThree->coSupervisorTitle == 'Professor' ? 'selected':''}}>Professor</option>
             <option value="Dr" {{ $pageThree->coSupervisorTitle == 'Dr' ? 'selected':''}}>Dr</option>
             <option value="None" {{ $pageThree->coSupervisorTitle == 'None' ? 'selected':''}}>None</option>
@@ -346,6 +355,7 @@
         <div>
           <label for="coSupervisorAfflaition">Is your supervisor affliated with (based in) a non-African university or organization?</label>
           <select name="coSupervisorAfflaition">
+              <option>Select an Option </option>
             <option value="Yes" {{ $pageThree->coSupervisorAfflaition == 'Yes' ? 'selected':''}}>Yes</option>
             <option value="No" {{ $pageThree->coSupervisorAfflaition == 'No' ? 'selected':''}}>No</option>
           </select>
@@ -372,11 +382,11 @@
           <input type="text" name="pastInstitutionCountry" value="{{old('pastInstitutionCountry',$pageFour->pastInstitutionCountry)}}">
         </div>
         <div>
-          <label for="pastInstitutionStartDate">Start Date</label>
+          <label for="pastInstitutionStartDate">Start Date <em>(MM-YYYY)</em> </label>
           <input type="text" name="pastInstitutionStartDate" value="{{old('pastInstitutionStartDate',$pageFour->pastInstitutionStartDate)}}">
         </div>
         <div>
-          <label for="pastInstitutionEndDate">End Date</label>
+          <label for="pastInstitutionEndDate">End Date  <em>(MM-YYYY)</em> </label    
           <input type="text" name="pastInstitutionEndDate" value="{{old('pastInstitutionEndDate',$pageFour->pastInstitutionEndDate)}}">
         </div>
         <div>
@@ -388,11 +398,12 @@
         <div>
           <label for="degree">Degree Received/Expected</label>
           <input type="text" name="degree" placeholder="(e.g B.sc. Philosophy)" value="{{old('degree',$pageFour->degree)}}">
-        </div>
+        </div><br>
         <h4>Research and Development</h4>
         <div>
           <label for="researchType">Type</label>
           <select  name="researchType">
+              <option>Select an Option </option>
             <option value="Published in peer-reviewed journal" {{ $pageFour->researchType == 'Published in peer-reviewed journal' ? 'selected':''}}>Published in peer-reviewed journal</option>
             <option value="Accepted in peer-reviewed journal" {{ $pageFour->researchType == 'Accepted in peer-reviewed journal' ? 'selected':''}}>Accepted in peer-reviewed journal/</option>
             <option value="Oral presentation" {{ $pageFour->researchType == 'Oral presentation' ? 'selected':''}}>Oral presentation</option>
@@ -417,7 +428,7 @@
           <textarea type="text" name="researchContributions">
           {{$pageFour->researchContributions}}
           </textarea>
-        </div>
+        </div><br>
         <h4>Prizes and Awards</h4>
         <p>Indicate prizes, scholarship or other recognition awards you have received in the past.</p>
         <div>
@@ -439,6 +450,7 @@
         <div>
           <label for="awardCoverage">Coverage</label>
           <select  name="awardCoverage">
+              <option>Select an Option </option>
             <option value="Departmental" {{ $pageFour->awardCoverage == 'Departmental' ? 'selected':''}}>Departmental</option>
             <option value="Institution" {{ $pageFour->awardCoverage == 'Institution' ? 'selected':''}}>Institution</option>
             <option value="Local" {{ $pageFour->awardCoverage == 'Local' ? 'selected':''}}>Local</option>
@@ -447,18 +459,18 @@
           </select>
         </div>
         <div>
-          <label for="awardDurationFrom">Duration: From</label>
+          <label for="awardDurationFrom">Duration: From <em>(MM-YYYY)</em></label>
           <input type="text" name="awardDurationFrom" value="{{old('awardDurationFrom',$pageFour->awardDurationFrom)}}">
         </div>
         <div>
-          <label for="awardDurationTo">Duration: To</label>
+          <label for="awardDurationTo">Duration: To <em>(MM-YYYY)</em></label>
           <input type="text" name="awardDurationTo" value="{{old('awardDurationTo',$pageFour->awardDurationTo)}}">
         </div>
       </div>
       <div class="page" id="five">
         <h3>Section 5: Mentors' Nomination</h3>
         <ol>
-          <li>please read through the prifles and area of research interest of mentors in the Mentos'Community on isnad-africa's website</li>
+          <li>please read through the <strong><a href="https://isnad-africa.org/all-mentors/" > profiles</a></strong> and area of research interest of mentors in the Mentos'Community on isnad-africa's website</li>
           <li>nominate, in order of preference, three mentors based on the alignment of your research interests and their experience.</li>
           <li>please note that you may be assigned a mentor other than the three you have selected in your application</li>
           <li>kindly note that mentors are continuously being added to the Mentors’ Community, therefore, if you do not find a mentor whose interest align with your research concept at the time of application, mark the section as "Not Applicable"</li>
@@ -479,10 +491,11 @@
       <div class="page" id="six">
         <h3>Section 6: Others</h3>
         <br>
-        <h4>6a: Employment</h4>
+        <h4>Employment</h4>
         <div>
           <label for="employmentType" >Employment Type</label>
           <select name="employmentType">
+              <option>Select an Option </option>
             <option value="Full Time" {{ $otherPage->employmentType == 'Full Time' ? 'selected':''}}>Full Time</option>
             <option value="Part Time" {{ $otherPage->employmentType == 'Part Time' ? 'selected':''}}>Part Time</option>
             <option value="Not Employed" {{ $otherPage->employmentType == 'Not Employed' ? 'selected':''}}>Not Employed</option>
@@ -491,6 +504,7 @@
         <div>
           <label for="researchHours">How many hours do you spend on research Weekly</label>
           <select id="researchHours" name="researchHours">
+              <option>Select an Option </option>
             <option value="Less than 10" {{ $otherPage->researchHours == 'Less than 10' ? 'selected':''}}>Less than 10</option>
             <option value="10-30 hours" {{ $otherPage->researchHours == '10-30 hours' ? 'selected':''}}>10-30 hours</option>
             <option value="More than 30 hours" {{ $otherPage->researchHours == 'More than 30 hours' ? 'selected':''}}>More than 30 hours</option>
@@ -513,11 +527,12 @@
         <div>
           <label for="Whatsapp">Whatsapp Number:</label>
           <input type="text" name="Whatsapp" value="{{old('Whatsapp',$otherPage->Whatsapp)}}">
-        </div>
+        </div><br>
         <h4>Additional Questions</h4>
         <div>
           <label for="hearAboutUs">How did you hear about us:</label>
           <select name="hearAboutUs">
+              <option>Select an Option </option>
             <option value="Facebook" {{ $otherPage->hearAboutUs == 'Facebook' ? 'selected':''}}>Facebook</option>
             <option value="Twitter" {{ $otherPage->hearAboutUs == 'Twitter' ? 'selected':''}}>Twitter</option>
             <option value="Newsletter" {{ $otherPage->hearAboutUs == 'Newsletter' ? 'selected':''}}>Newsletter</option>
@@ -549,7 +564,7 @@
       </div>
       <div class="page" id="eight">
         <label>By typing my full name here
-          <input type="text" name="signature">,i certify that the information provided is true and complete to the best of my knowledge. if i am accepted, i accepted that any false or misleading information in my application or interview may lead to expulsion from the program</label>
+          <input type="text" name="signature">,I certify that the information provided is true and complete to the best of my knowledge. if I am accepted, I accepted that any false or misleading information in my application or interview may lead to expulsion from the program</label>
       </div>
     </div>
     <input type="submit" name="submitBtn" id='frmSub'onclick="formsub()">
