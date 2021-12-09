@@ -5,6 +5,20 @@
 @if(Session::has('message')) 
 <p><strong> {{ Session::get('message') }}</strong></p>
 @endif
+
+<p>
+Thank you for your interest in providing a reference for one of the applicants for the 2022 cohort of the Mentoring for Research Programme. Given the remote nature of the programme, we place significant reliance on the recommendation of academic professors who have had academic/research experience with the applicant to help us with information about the student. The connection of the students selected for the programme to global researchers also makes the recommendation crucial to help us in selecting only students who have the capacity and the right level of exposure to relate internationally with professional ethics. Therefore, your recommendation of this applicant will play a significant role in our evaluation and we kindly request you to please provide the reference in sincerity and to the best of your knowledge and experience with the student. 
+
+If the student is selected, we will also keep you informed on his progress, performance and practice on the programme. 
+
+We sincerely appreciate your honest contribution toward ensuring the quality of the programme. Thank you. For inquiries or technical difficulties, you may please reach us via email: mrp@isnad-africa.org </p>
+
+<p>Sincerely, </p>
+<p>Akinleye Folorunsho </p>
+<p>Lead, MRP </p>
+
+
+
 <form id="mrp" action="{{ route('hform') }}" method="post" enctype="multipart/form-data">
   @csrf
   <div>
