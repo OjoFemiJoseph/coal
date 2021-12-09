@@ -61,35 +61,32 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   
 
   <fieldset>
-  <legend>How did you hear about us?</legend>
+  <legend>Commitment to academic excellence</legend>
   <div>
-    <input type="checkbox" id="instagram" name="source" value="instagram">
-    <label for="instagram">Instagram</label>
+    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
   </div>
+
   <div>
-    <input type="checkbox" id="facebook" name="source" value="facebook">
-    <label for="facebook">Facebook</label>
+    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
   </div>
+  
   <div>
-    <input type="checkbox" id="search-engine" name="source" value="search-engine">
-    <label for="search-engine">Search Engine</label>
+    <input type="checkbox" id="good" name="good" value="Good">
+    <label for="good">Good</label>
   </div>
+  
   <div>
-    <input type="checkbox" id="word-of-mouth" name="source" value="word-of-mouth">
-    <label for="word-of-mouth">Word of Mouth</label>
+    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
   </div>
+
   <div>
-    <input type="checkbox" id="press" name="source" value="press">
-    <label for="press">Press</label>
+    <input type="checkbox" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
   </div>
-  <div>
-    <input type="checkbox" id="event" name="source" value="event">
-    <label for="event">Event</label>
-  </div>
-  <div>
-    <input type="checkbox" id="billboard" name="source" value="billboard">
-    <label for="billboard">Billboard</label>
-  </div>
+
   </fieldset>
   
         
