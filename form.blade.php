@@ -88,6 +88,209 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   </div>
 
   </fieldset>
+
+  <fieldset>
+  <legend>Motivation for Research</legend>
+  <div>
+    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Availability for Research Work</legend>
+  <div>
+    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Competence in research topic</legend>
+  <div>
+    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Capacity for Independent research</legend>
+  <div>
+    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Reliability</legend>
+  <div>
+    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+ <fieldset>
+  <legend>Integrity</legend>
+  <div>
+    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+   <fieldset>
+  <legend>Potential in a research or academia career</legend>
+  <div>
+    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
   
         
     <input type="submit" name="submitBtn" id='frmSub'onclick="formsub()">
