@@ -58,7 +58,9 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <label for="knownDuration">How long have you known the applicants</label>
   <input type="text" name="knownDuration">
   </div>
-  
+
+  <p>please, select as appropriate </p>
+  <h4> Academic Attributes</h4>
 
   <fieldset>
   <legend>Commitment to academic excellence</legend>
@@ -293,6 +295,127 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   </fieldset>
   
         
-    <input type="submit">
+
+  <h4> Character and Communication Attributes</h4>
+
+  <fieldset>
+  <legend>Level of maturity</legend>
+  <div>
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="radio" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Open-mindedness</legend>
+  <div>
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="radio" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Email-writing</legend>
+  <div>
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="radio" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+  <fieldset>
+  <legend>Resourcefulness</legend>
+  <div>
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <label for="excellent">Excellence</label>
+  </div>
+
+  <div>
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <label for="vgood">Very Good</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="good" name="good" value="Good">
+    <label for="good">Good</label>
+  </div>
+  
+  <div>
+    <input type="radio" id="fair" name="fair" value="Fair">
+    <label for="fair">Fair</label>
+  </div>
+
+  <div>
+    <input type="radio" id="poor" name="poor" value="poor">
+    <label for="poor">Poor</label>
+  </div>
+
+  </fieldset>
+
+  
+
+    <input type="submit" value="Submit Reference" >
 </form>
 @endsection
