@@ -428,6 +428,12 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
     <input type="radio" name="no" value="No">
     <label for="no">No</label>
   </div>
+
+  <div>
+    <input type="radio" name="maybe" value="Maybe">
+    <label for="maybe">Maybe</label>
+  </div>
+
   </fieldset>
 
 
@@ -442,6 +448,11 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
     <input type="radio" name="no" value="No">
     <label for="no">No</label>
   </div>
+
+  <div>
+    <input type="radio" name="maybe" value="Maybe">
+    <label for="maybe">Maybe</label>
+  </div>
   </fieldset>
 
   
@@ -455,6 +466,11 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <div>
     <input type="radio" name="no" value="No">
     <label for="no">No</label>
+  </div>
+
+  <div>
+    <input type="radio" name="maybe" value="Maybe">
+    <label for="maybe">Maybe</label>
   </div>
   </fieldset>
 
