@@ -457,6 +457,12 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
     <label for="no">No</label>
   </div>
   </fieldset>
+
+  <div>
+  <label>In a summary (less than 300 characters), please elaborate on your assessment of the applicant and provide any additional information regarding the applicant which is not apparent in the academic transcripts. You may provide relevant comments that provide a complete picture of the applicant’s abilities and potential towards a successful relationship with the mentor, and also his motivation towards the completion of his current degree programme:</label>
+  <textarea></textarea>
+  </div>
+
     <input type="submit" value="Submit Reference" >
 </form>
 @endsection
