@@ -415,7 +415,48 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   </fieldset>
 
   
+  <h4>Others</h4>
 
+  <fieldset>
+  <legend>Would you recommend this applicant for admission into our mentoring for research programme?s</legend>
+  <div>
+    <input type="radio" name="yes" value="yes">
+    <label for="yes">Yes</label>
+  </div>
+
+  <div>
+    <input type="radio" name="no" value="No">
+    <label for="no">No</label>
+  </div>
+  </fieldset>
+
+
+  <fieldset>
+  <legend>Are you open to being involved in the communication with the mentor towards the research topic of the applicant?    </legend>
+  <div>
+    <input type="radio" name="yes" value="yes">
+    <label for="yes">Yes</label>
+  </div>
+
+  <div>
+    <input type="radio" name="no" value="No">
+    <label for="no">No</label>
+  </div>
+  </fieldset>
+
+  
+  <fieldset>
+  <legend> Are you interested in co-authoring journal applicants relating to the applicant’s research topic with the mentor? </legend>
+  <div>
+    <input type="radio" name="yes" value="yes">
+    <label for="yes">Yes</label>
+  </div>
+
+  <div>
+    <input type="radio" name="no" value="No">
+    <label for="no">No</label>
+  </div>
+  </fieldset>
     <input type="submit" value="Submit Reference" >
 </form>
 @endsection
