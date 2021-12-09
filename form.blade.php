@@ -94,27 +94,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Motivation for Research</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="rMotivation" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="rMotivation" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="rMotivation" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="rMotivation" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="rMotivation" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -123,27 +123,26 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Availability for Research Work</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="availability" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
-  <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+  <input type="radio" name="availability" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="availability" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="availability" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="availability" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -152,27 +151,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Competence in research topic</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="competence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="competence"  value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="competence" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="competence" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="competence" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -181,27 +180,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Capacity for Independent research</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="capacity" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="capacity" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="capacity" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="capacity" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="capacity" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -210,27 +209,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Reliability</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="reliability" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="reliability"  value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="reliability"  value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="reliability"  value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="reliability" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -239,27 +238,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
  <fieldset>
   <legend>Integrity</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio"  name="integrity" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="integrity" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="integrity" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="integrity" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="integrity" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -268,27 +267,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
    <fieldset>
   <legend>Potential in a research or academia career</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="potential" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="potential" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="potential" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="potential" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="potential" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -301,27 +300,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Level of maturity</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="maturity" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="maturity" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="maturity" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="maturity" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="maturity" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -330,27 +329,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Open-mindedness</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio"  name="openMind" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="openMind" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="openMind" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="openMind" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="openMind" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -359,27 +358,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Email-writing</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="EmailWriting" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="EmailWriting" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="EmailWriting" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="EmailWriting" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="EmailWriting" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -388,27 +387,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Resourcefulness</legend>
   <div>
-    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" name="resourcesfullness" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="radio" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" name="resourcesfullness" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="radio" id="good" name="good" value="Good">
+    <input type="radio" name="resourcesfullness" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="radio" id="fair" name="fair" value="Fair">
+    <input type="radio" name="resourcesfullness" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="radio" id="poor" name="poor" value="poor">
+    <input type="radio" name="resourcesfullness" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -420,17 +419,17 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Would you recommend this applicant for admission into our mentoring for research programme?s</legend>
   <div>
-    <input type="radio" name="yes" value="yes">
+    <input type="radio" name="recommend" value="yes">
     <label for="yes">Yes</label>
   </div>
 
   <div>
-    <input type="radio" name="no" value="No">
+    <input type="radio" name="recommend" value="No">
     <label for="no">No</label>
   </div>
 
   <div>
-    <input type="radio" name="maybe" value="Maybe">
+    <input type="radio" name="recommend" value="Maybe">
     <label for="maybe">Maybe</label>
   </div>
 
@@ -440,17 +439,17 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Are you open to being involved in the communication with the mentor towards the research topic of the applicant?    </legend>
   <div>
-    <input type="radio" name="yes" value="yes">
+    <input type="radio" name="involve" value="yes">
     <label for="yes">Yes</label>
   </div>
 
   <div>
-    <input type="radio" name="no" value="No">
+    <input type="radio" name="involve"  value="No">
     <label for="no">No</label>
   </div>
 
   <div>
-    <input type="radio" name="maybe" value="Maybe">
+    <input type="radio" name="involve" value="Maybe">
     <label for="maybe">Maybe</label>
   </div>
   </fieldset>
@@ -459,24 +458,24 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend> Are you interested in co-authoring journal applicants relating to the applicant’s research topic with the mentor? </legend>
   <div>
-    <input type="radio" name="yes" value="yes">
+    <input type="radio" name="coAuthor" value="yes">
     <label for="yes">Yes</label>
   </div>
 
   <div>
-    <input type="radio" name="no" value="No">
+    <input type="radio" name="coAuthor" value="No">
     <label for="no">No</label>
   </div>
 
   <div>
-    <input type="radio" name="maybe" value="Maybe">
+    <input type="radio" name="coAuthor" value="Maybe">
     <label for="maybe">Maybe</label>
   </div>
   </fieldset>
 
   <div>
   <label>In a summary (less than 300 characters), please elaborate on your assessment of the applicant and provide any additional information regarding the applicant which is not apparent in the academic transcripts. You may provide relevant comments that provide a complete picture of the applicant’s abilities and potential towards a successful relationship with the mentor, and also his motivation towards the completion of his current degree programme:</label>
-  <textarea></textarea>
+  <textarea name="txt" ></textarea>
   </div>
 
     <input type="submit" value="Submit Reference" >
