@@ -22,7 +22,7 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
 
 
 
-<form action="" method="post">
+<form action="{{ route('hreference')}}" method="post">
   @csrf
   <div>
   <label for="fullName">Full Name</label>
