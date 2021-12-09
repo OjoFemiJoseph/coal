@@ -63,27 +63,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Commitment to academic excellence</legend>
   <div>
-    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="good" name="good" value="Good">
+    <input type="radio" id="good" name="good" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <input type="radio" id="fair" name="fair" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="checkbox" id="poor" name="poor" value="poor">
+    <input type="radio" id="poor" name="poor" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -92,27 +92,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Motivation for Research</legend>
   <div>
-    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="good" name="good" value="Good">
+    <input type="radio" id="good" name="good" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <input type="radio" id="fair" name="fair" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="checkbox" id="poor" name="poor" value="poor">
+    <input type="radio" id="poor" name="poor" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -121,27 +121,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Availability for Research Work</legend>
   <div>
-    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="good" name="good" value="Good">
+    <input type="radio" id="good" name="good" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <input type="radio" id="fair" name="fair" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="checkbox" id="poor" name="poor" value="poor">
+    <input type="radio" id="poor" name="poor" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -150,27 +150,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Competence in research topic</legend>
   <div>
-    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="good" name="good" value="Good">
+    <input type="radio" id="good" name="good" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <input type="radio" id="fair" name="fair" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="checkbox" id="poor" name="poor" value="poor">
+    <input type="radio" id="poor" name="poor" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -179,27 +179,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Capacity for Independent research</legend>
   <div>
-    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="good" name="good" value="Good">
+    <input type="radio" id="good" name="good" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <input type="radio" id="fair" name="fair" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="checkbox" id="poor" name="poor" value="poor">
+    <input type="radio" id="poor" name="poor" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -208,27 +208,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   <fieldset>
   <legend>Reliability</legend>
   <div>
-    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="good" name="good" value="Good">
+    <input type="radio" id="good" name="good" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <input type="radio" id="fair" name="fair" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="checkbox" id="poor" name="poor" value="poor">
+    <input type="radio" id="poor" name="poor" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -237,27 +237,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
  <fieldset>
   <legend>Integrity</legend>
   <div>
-    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="good" name="good" value="Good">
+    <input type="radio" id="good" name="good" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <input type="radio" id="fair" name="fair" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="checkbox" id="poor" name="poor" value="poor">
+    <input type="radio" id="poor" name="poor" value="poor">
     <label for="poor">Poor</label>
   </div>
 
@@ -266,27 +266,27 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
    <fieldset>
   <legend>Potential in a research or academia career</legend>
   <div>
-    <input type="checkbox" id="excellent" name="Aexcellence" value="excellence">
+    <input type="radio" id="excellent" name="Aexcellence" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
 
   <div>
-    <input type="checkbox" id="vgood" name="vgood" value="Very Good">
+    <input type="radio" id="vgood" name="vgood" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="good" name="good" value="Good">
+    <input type="radio" id="good" name="good" value="Good">
     <label for="good">Good</label>
   </div>
   
   <div>
-    <input type="checkbox" id="fair" name="fair" value="Fair">
+    <input type="radio" id="fair" name="fair" value="Fair">
     <label for="fair">Fair</label>
   </div>
 
   <div>
-    <input type="checkbox" id="poor" name="poor" value="poor">
+    <input type="radio" id="poor" name="poor" value="poor">
     <label for="poor">Poor</label>
   </div>
 
