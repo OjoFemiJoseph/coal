@@ -592,11 +592,14 @@
     </header>
     <div id='main' class='all_colors' data-scroll-offset='0'>
       <div id='av_section_1' class='avia-section main_color avia-section-default avia-no-shadow avia-bg-style-scroll  avia-builder-el-0  avia-builder-el-no-sibling   container_wrap fullsize' style=' '>
-        <div class='container'>
+        
+@yield('content')
+
+      <div class='container'>
           <main role="main" itemprop="mainContentOfPage" class='template-page content  av-content-full alpha units'>
             <div class='post-entry post-entry-type-page post-entry-7022'>
               <div class='entry-content-wrapper clearfix'>
-                @yield('content')
+                
 
                 @auth
                   <div class="navigateBtn">
