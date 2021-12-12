@@ -636,7 +636,7 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   </div>
 
   <div>
-  <label for="phone">Phone</label>
+  <label for="phone">Phone Number</label>
   <input type="text" name="phone">
   </div>
 
@@ -651,7 +651,7 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   </div>
 
   <p>please, select as appropriate </p>
-  <h2> Academic Attributes</h2>
+  <h3> <strong>Academic Attributes</strong></h3>
 
   <fieldset>
   <label>Commitment to academic excellence</label>
@@ -717,7 +717,7 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
     <input type="radio" name="availability" value="excellence">
     <label for="excellent">Excellence</label>
   </div>
-
+  <div>
   <input type="radio" name="availability" value="Very Good">
     <label for="vgood">Very Good</label>
   </div>
@@ -826,7 +826,7 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   </fieldset>
 
  <fieldset>
-  <legend>Integrity</legend>
+  <label>Integrity</label>
   <div>
     <input type="radio"  name="integrity" value="excellence">
     <label for="excellent">Excellence</label>
@@ -855,7 +855,7 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   </fieldset>
 
    <fieldset>
-  <legend>Potential in a research or academia career</legend>
+  <label>Potential in a research or academia career</label>
   <div>
     <input type="radio" name="potential" value="excellence">
     <label for="excellent">Excellence</label>
@@ -885,7 +885,7 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   
         
 
-  <h2> Character and Communication Attributes</h2>
+  <h3> <strong>Character and Communication Attributes</strong></h3>
 
   <fieldset>
   <label>Level of maturity</label>
@@ -1004,7 +1004,7 @@ We sincerely appreciate your honest contribution toward ensuring the quality of 
   </fieldset>
 
   
-  <h2>Others</h2>
+  <h3><strong>Others</strong></h3>
 
   <fieldset>
   <label>Would you recommend this applicant for admission into our mentoring for research programme?</label>
