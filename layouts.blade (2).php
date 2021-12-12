@@ -587,10 +587,10 @@
         <!-- end container_wrap-->
       </div>
       <di
- 
+ @yield('content')
       <!end header -->
     </header>      
-@yield('content')
+
 
     <div id='main' clasll_colors' data-scroll-offset='0'>
       <div id='av_section_1' class='avia-section main_color avia-section-default avia-no-shadow avia-bg-style-scroll  avia-builder-el-0  avia-builder-el-no-sibling   container_wrap fullsize' style=' '>
